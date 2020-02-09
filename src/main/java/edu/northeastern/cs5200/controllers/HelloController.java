@@ -17,7 +17,7 @@ public class HelloController {
 
     @RequestMapping("/api/hello/insert")
     public HelloObject insertHelloObject() {
-        HelloObject obj = new HelloObject("Hello Jose Annunziato!");
+        HelloObject obj = new HelloObject("Hello Attinder!");
         helloRepository.save(obj);
         return obj;
     }
